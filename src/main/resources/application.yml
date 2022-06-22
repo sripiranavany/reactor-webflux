@@ -1,0 +1,16 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:4000/db_anime
+    username: root
+    password: root
+
+logging:
+   level:
+     org:
+       springframework:
+         data:
+           r2dbc: DEBUG
+
+#server:
+#  error:
+#    include-stacktrace: on_param
